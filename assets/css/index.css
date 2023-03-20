@@ -1,0 +1,133 @@
+body {
+  font-family: "Hanken Grotesk", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.primary_card,
+.secundary_card {
+  width: 50%;
+}
+
+.primary_card {
+  background-image: linear-gradient(to top, #1500ff, #9500ff);
+  width: 350px;
+  border-radius: 10%;
+  height: 400px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-right: -0.1px;
+  margin-left: 350px;
+}
+
+.title {
+  font-size: 15px;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.radio1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 900;
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-15%, -15%);
+}
+
+.radio2 {
+  color: #d3d3d3;
+  font-weight: 900px;
+  font-size: 18px;
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-18%, -18%);
+}
+
+.radio-result {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #3a02a1, #4231ff);
+  position: relative;
+  margin: 0 auto;
+}
+
+.card_great {
+  text-align: center;
+}
+
+.title_great {
+  color: #fff;
+}
+
+.desc_great {
+  color: #d3d3d3;
+}
+
+.title_secundary {
+  font-size: 20px;
+}
+
+.reaction {
+  background-color: #ffc0c0;
+  width: 310px;
+  border-radius: 15px;
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
+
+.number_por {
+  display: inline-block;
+  text-indent: 140px;
+}
+
+.number_max {
+  display: inline-block;
+  color: #6b6b6b;
+}
+
+.memory {
+  background-color: #fdee7e;
+  width: 310px;
+  border-radius: 15px;
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
+
+.verbal {
+  background-color: #86ff98;
+  width: 310px;
+  border-radius: 15px;
+  text-indent: 18px;
+  margin-bottom: 20px;
+}
+
+.visual {
+  background-color: #7895ff;
+  width: 310px;
+  border-radius: 15px;
+  text-indent: 18px;
+  margin-bottom: 20px;
+}
+
+.secundary_card {
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  margin-left: 5px;
+  border-radius: 10%;
+}
+
+.content_summary {
+  margin-left: 20px;
+}
+
+.title_secundary {
+  margin-left: 20px;
+}
